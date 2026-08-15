@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Jitter">
+  <defs>
+    <linearGradient id="jitterGrad" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF6EC4"/>
+      <stop offset="0.5" stop-color="#7B5CFF"/>
+      <stop offset="1" stop-color="#2DB6FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#jitterGrad)"/>
+  <circle cx="40" cy="32" r="9" fill="#fff"/>
+  <circle cx="24" cy="32" r="6" fill="#fff" fill-opacity="0.75"/>
+  <circle cx="13" cy="32" r="3.5" fill="#fff" fill-opacity="0.45"/>
+</svg>
