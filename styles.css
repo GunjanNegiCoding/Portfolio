@@ -339,7 +339,7 @@ a { color: inherit; text-decoration: none; }
   inset: 0;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 30px;
   padding: 26px;
   background: var(--teal);
@@ -355,7 +355,7 @@ a { color: inherit; text-decoration: none; }
   color: #fff;
 }
 .project--cover .project__body { padding: 0; gap: 12px; flex: 0; }
-.project--cover .project__title { color: #08312e; }
+.project--cover .project__title { color: #08312e; line-height: 1.15; min-height: 2.3em; }
 .projects__grid .project--cover .project__title { color: #FAFAF7; }
 .project--cover .project__desc { color: #0a3b37; }
 .project--cover .project__tags { margin-top: 0; }
